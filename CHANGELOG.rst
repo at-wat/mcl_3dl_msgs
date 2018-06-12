@@ -4,6 +4,7 @@ Changelog for package mcl_3dl_msgs
 
 0.1.2 (2018-06-12)
 -----------
+* Fix runtime dependency (https://github.com/at-wat/mcl_3dl_msgs/issues/3)
 * Fix package dependency (https://github.com/at-wat/mcl_3dl_msgs/issues/2)
 * Build messages and services
 * Initial drop from mcl_3dl package
