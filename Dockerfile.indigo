@@ -2,6 +2,7 @@ FROM ros:indigo-ros-core
 
 RUN apt-get -qq update \
   && apt-get install -y --no-install-recommends \
+    build-essential \
     libxml2-utils \
     python-pip \
     sudo \
