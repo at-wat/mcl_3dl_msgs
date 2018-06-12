@@ -2,7 +2,7 @@
 Changelog for package mcl_3dl_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
+0.1.2 (2018-04-27)
 -----------
 * Build messages and services
 * Initial drop from mcl_3dl package
