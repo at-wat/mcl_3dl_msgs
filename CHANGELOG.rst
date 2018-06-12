@@ -2,8 +2,9 @@
 Changelog for package mcl_3dl_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.2 (2018-04-27)
+0.1.2 (2018-06-12)
 -----------
+* Fix package dependency (https://github.com/at-wat/mcl_3dl_msgs/issues/2)
 * Build messages and services
 * Initial drop from mcl_3dl package
 * Support variable particle size (https://github.com/at-wat/mcl_3dl/issues/78)
