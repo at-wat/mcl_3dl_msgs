@@ -1,9 +1,7 @@
-FROM ros:kinetic
+FROM ros:kinetic-ros-core
 
 RUN apt-get -qq update \
   && apt-get install -y --no-install-recommends \
-    build-essential \
-    curl \
     libxml2-utils \
     python-pip \
     sudo \

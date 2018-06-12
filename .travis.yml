@@ -5,6 +5,7 @@ env:
   global:
     - PACKAGE_NAME=mcl_3dl_msgs
   matrix:
+    - ROS_DISTRO_TARGET=melodic
     - ROS_DISTRO_TARGET=kinetic
     - ROS_DISTRO_TARGET=indigo
 branches:
