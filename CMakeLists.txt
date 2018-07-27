@@ -8,15 +8,20 @@ find_package(catkin REQUIRED
 )
 
 add_service_files(
-  FILES ResizeParticle.srv
+  FILES
+    ResizeParticle.srv
 )
 add_message_files(
-  FILES Status.msg
+  FILES
+    Status.msg
 )
 generate_messages(
-  DEPENDENCIES std_msgs
+  DEPENDENCIES
+    std_msgs
 )
 
 catkin_package(
-  CATKIN_DEPENDS std_msgs
+  CATKIN_DEPENDS
+    message_runtime
+    std_msgs
 )
