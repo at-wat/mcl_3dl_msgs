@@ -14,7 +14,7 @@ RUN pip install gh-pr-comment catkin_lint
 RUN rosdep update \
   && mkdir -p /catkin_ws/src \
   && cd /catkin_ws/src \
-  && . /opt/ros/${ROS_DISTRO}/setup.bash \
+  && . /opt/ros/${ROS_DISTRO}/setup.sh \
   && catkin_init_workspace
 
 COPY ./package.xml /catkin_ws/src/mcl_3dl_msgs/package.xml

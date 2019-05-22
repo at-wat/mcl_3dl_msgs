@@ -3,6 +3,7 @@
 set -o errexit
 
 source /opt/ros/${ROS_DISTRO}/setup.bash
+cd /catkin_ws
 
 pkgs=$(find . -name package.xml | xargs -n1 dirname)
 catkin_lint $pkgs \
