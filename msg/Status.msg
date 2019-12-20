@@ -5,17 +5,24 @@ std_msgs/Header header
 uint8 NORMAL = 0
 uint8 GLOBAL_LOCALIZATION = 1
 uint8 EXPANSION_RESETTING = 2
-uint8 COVARIANCE_CONVERGED = 3
 
 uint8 status
 
 # error definitions
 
-uint8 GOING_WELL = 0
-uint8 LARGE_STD_VALUE = 1
-uint8 POINTS_NOT_FOUND = 2
+uint8 ERROR_NORMAL = 0
+uint8 ERROR_POINTS_NOT_FOUND = 1
 
 uint8 error
 
+# convergence status definitions
+
+uint8 CONVERGENCE_STATUS_NORMAL = 0
+uint8 CONVERGENCE_STATUS_CONVERGED = 1
+uint8 CONVERGENCE_STATUS_LARGE_STD_VALUE = 2
+
+uint8 convergence_status
+
 uint32 particle_size
 float32 match_ratio
+float32 entropy
