@@ -2,6 +2,17 @@
 Changelog for package mcl_3dl_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update assets to v0.0.6 (`#11 <https://github.com/at-wat/mcl_3dl_msgs/issues/11>`_)
+* Update assets to v0.0.5 (`#10 <https://github.com/at-wat/mcl_3dl_msgs/issues/10>`_)
+* Add catkin/bloom release action (`#8 <https://github.com/at-wat/mcl_3dl_msgs/issues/8>`_)
+* Expose internal errors (`#7 <https://github.com/at-wat/mcl_3dl_msgs/issues/7>`_)
+* Refactor CI scripts (`#6 <https://github.com/at-wat/mcl_3dl_msgs/issues/6>`_)
+* Fix package dependencies (`#5 <https://github.com/at-wat/mcl_3dl_msgs/issues/5>`_)
+* Add test on ROS Melodic (`#4 <https://github.com/at-wat/mcl_3dl_msgs/issues/4>`_)
+* Contributors: Atsushi Watanabe, Daiki Maekawa
+
 0.1.2 (2018-06-12)
 -----------
 * Fix runtime dependency (https://github.com/at-wat/mcl_3dl_msgs/issues/3)
