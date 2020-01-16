@@ -2,8 +2,8 @@
 Changelog for package mcl_3dl_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.0 (2020-01-16)
+------------------
 * Update assets to v0.0.6 (`#11 <https://github.com/at-wat/mcl_3dl_msgs/issues/11>`_)
 * Update assets to v0.0.5 (`#10 <https://github.com/at-wat/mcl_3dl_msgs/issues/10>`_)
 * Add catkin/bloom release action (`#8 <https://github.com/at-wat/mcl_3dl_msgs/issues/8>`_)
