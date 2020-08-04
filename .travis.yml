@@ -1,9 +1,6 @@
+dist: bionic
 services: docker
 language: bash
-addons:
-  apt:
-    packages:
-      - python-pip
 
 env:
   global:
@@ -16,11 +13,9 @@ branches:
     - master
 
 before_install:
-  - pip install --user gh-pr-comment
-
-install: true
-
+  - curl -sL https://raw.githubusercontent.com/at-wat/gh-pr-comment/master/install.sh | sh -s
 script:
+  - cp ~/.local/bin/gh-pr-comment .travis/
   - docker build
     -t mcl-3dl-msgs
     -f .travis/Dockerfile
@@ -28,9 +23,6 @@ script:
     --build-arg ROS_DISTRO=${ROS_DISTRO_TARGET}
     || (gh-pr-comment "[#${TRAVIS_BUILD_NUMBER}] FAILED on ${ROS_DISTRO_TARGET}" "docker build failed"; false)
   - docker run --rm -it
-    -e TRAVIS_PULL_REQUEST
-    -e TRAVIS_PULL_REQUEST_SLUG
-    -e TRAVIS_BOT_GITHUB_TOKEN
-    -e GITHUB_API_URL_BASE
     -e TRAVIS_BUILD_NUMBER
+    $(sh <(curl -s https://raw.githubusercontent.com/at-wat/gh-pr-comment/master/env.sh))
     mcl-3dl-msgs /catkin_ws/src/${PACKAGE_NAME}/.travis/test.sh
