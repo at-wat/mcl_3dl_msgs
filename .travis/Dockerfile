@@ -7,6 +7,7 @@ RUN sed -e \
 
 RUN apt-get -qq update \
   && apt-get install -y --no-install-recommends \
+    build-essential \
     libxml2-utils \
     python-pip \
     python-rosdep \
