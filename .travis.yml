@@ -1,9 +1,6 @@
+dist: bionic
 services: docker
 language: bash
-addons:
-  apt:
-    packages:
-      - python-pip
 
 env:
   global:
@@ -16,11 +13,9 @@ branches:
     - master
 
 before_install:
-  - pip install --user gh-pr-comment
-
-install: true
-
+  - curl -sL https://raw.githubusercontent.com/at-wat/gh-pr-comment/master/install.sh | sh -s
 script:
+  - cp ~/.local/bin/gh-pr-comment .travis/
   - docker build
     -t mcl-3dl-msgs
     -f .travis/Dockerfile
