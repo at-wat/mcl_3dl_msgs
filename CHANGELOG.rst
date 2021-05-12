@@ -2,8 +2,8 @@
 Changelog for package mcl_3dl_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.0 (2021-05-12)
+------------------
 * Add LoadPCD.srv (`#30 <https://github.com/at-wat/mcl_3dl_msgs/issues/30>`_)
 * Update assets to v0.3.1 (`#31 <https://github.com/at-wat/mcl_3dl_msgs/issues/31>`_)
 * Update assets to v0.3.0 (`#29 <https://github.com/at-wat/mcl_3dl_msgs/issues/29>`_)
