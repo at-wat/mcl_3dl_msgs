@@ -10,6 +10,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation ${MESSAGE_DEPENDS})
 add_service_files(
   FILES
     ResizeParticle.srv
+    LoadPCD.srv
 )
 add_message_files(
   FILES
