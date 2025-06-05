@@ -2,8 +2,8 @@
 Changelog for package mcl_3dl_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.1 (2025-06-05)
+------------------
 * Migrate to Alpine ROS 1 (`#50 <https://github.com/at-wat/mcl_3dl_msgs/issues/50>`_)
 * Update assets to v0.6.4 (`#49 <https://github.com/at-wat/mcl_3dl_msgs/issues/49>`_)
 * Update assets to v0.6.3 (`#48 <https://github.com/at-wat/mcl_3dl_msgs/issues/48>`_)
