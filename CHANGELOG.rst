@@ -2,6 +2,25 @@
 Changelog for package mcl_3dl_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Migrate to Alpine ROS 1 (`#50 <https://github.com/at-wat/mcl_3dl_msgs/issues/50>`_)
+* Update assets to v0.6.4 (`#49 <https://github.com/at-wat/mcl_3dl_msgs/issues/49>`_)
+* Update assets to v0.6.3 (`#48 <https://github.com/at-wat/mcl_3dl_msgs/issues/48>`_)
+* Update assets to v0.6.2 (`#46 <https://github.com/at-wat/mcl_3dl_msgs/issues/46>`_)
+* Update assets to v0.6.1 (`#45 <https://github.com/at-wat/mcl_3dl_msgs/issues/45>`_)
+* Update assets to v0.6.0 (`#44 <https://github.com/at-wat/mcl_3dl_msgs/issues/44>`_)
+* Update assets to v0.5.2 (`#43 <https://github.com/at-wat/mcl_3dl_msgs/issues/43>`_)
+* Update assets to v0.5.1 (`#41 <https://github.com/at-wat/mcl_3dl_msgs/issues/41>`_)
+* Update assets to v0.5.0 (`#40 <https://github.com/at-wat/mcl_3dl_msgs/issues/40>`_)
+* Update assets to v0.4.2 (`#39 <https://github.com/at-wat/mcl_3dl_msgs/issues/39>`_)
+* Update assets to v0.4.1 (`#38 <https://github.com/at-wat/mcl_3dl_msgs/issues/38>`_)
+* Update assets to v0.4.0 (`#37 <https://github.com/at-wat/mcl_3dl_msgs/issues/37>`_)
+* Update assets to v0.3.4 (`#36 <https://github.com/at-wat/mcl_3dl_msgs/issues/36>`_)
+* Update assets to v0.3.3 (`#35 <https://github.com/at-wat/mcl_3dl_msgs/issues/35>`_)
+* Update assets to v0.3.2 (`#34 <https://github.com/at-wat/mcl_3dl_msgs/issues/34>`_)
+* Contributors: Atsushi Watanabe
+
 0.6.0 (2021-05-12)
 ------------------
 * Add LoadPCD.srv (`#30 <https://github.com/at-wat/mcl_3dl_msgs/issues/30>`_)
