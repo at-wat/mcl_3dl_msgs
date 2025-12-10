@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3...3.26)
+cmake_minimum_required(VERSION 2.8...3.26)
 project(mcl_3dl_msgs)
 
 set(MESSAGE_DEPENDS
